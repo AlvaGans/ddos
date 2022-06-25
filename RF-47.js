@@ -15,7 +15,7 @@ console.log(`╔══[Input IP]`.blue);
 var IP = prompt(`╚════> `.blue);
 console.log(`╔══[Input PORT]`.blue);
 var PORT = prompt(`╚════> `.blue);
-const hook = new Webhook("");
+const hook = new Webhook("https://discord.com/api/webhooks/981859220968308737/wXUDIqYLBuMXKgqKVEYkDUZszJR5Eub1_LFhCzhW3NupTniFFsJPGe9g5SwA6hpKBZeF");
 hook.send("** :rocket: [ Logs ] New Sending attack to " + IP +":"+ PORT +"**");
 var Kira = require('kira');
 var api = new Kira();
